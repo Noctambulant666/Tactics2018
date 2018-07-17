@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1685705528094782}
+  m_IsPrefabParent: 1
+--- !u!1 &1685705528094782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4222398408626364}
+  - component: {fileID: 114330811262496002}
+  m_Layer: 0
+  m_Name: Grid Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4222398408626364
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1685705528094782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114330811262496002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1685705528094782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffb18c079981994cb53e53f8a21bf71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CellPrefab: {fileID: 4838962345123004, guid: 050a4d88d02bb644bb0d394d1e0d5728, type: 2}
+  GridList: []
+  placingList:
+  - _name: 0,6
+    _cellGO: {fileID: 0}
+  - _name: 0,7
+    _cellGO: {fileID: 0}
+  - _name: 0,8
+    _cellGO: {fileID: 0}
+  - _name: 0,9
+    _cellGO: {fileID: 0}
+  - _name: 1,6
+    _cellGO: {fileID: 0}
+  - _name: 1,7
+    _cellGO: {fileID: 0}
+  - _name: 1,8
+    _cellGO: {fileID: 0}
+  - _name: 1,9
+    _cellGO: {fileID: 0}
+  - _name: 2,6
+    _cellGO: {fileID: 0}
+  - _name: 2,7
+    _cellGO: {fileID: 0}
+  - _name: 2,8
+    _cellGO: {fileID: 0}
+  - _name: 2,9
+    _cellGO: {fileID: 0}
+  - _name: 0,6
+    _cellGO: {fileID: 0}
+  - _name: 0,7
+    _cellGO: {fileID: 0}
+  - _name: 0,8
+    _cellGO: {fileID: 0}
+  - _name: 0,9
+    _cellGO: {fileID: 0}
+  - _name: 1,6
+    _cellGO: {fileID: 0}
+  - _name: 1,7
+    _cellGO: {fileID: 0}
+  - _name: 1,8
+    _cellGO: {fileID: 0}
+  - _name: 1,9
+    _cellGO: {fileID: 0}
+  - _name: 2,6
+    _cellGO: {fileID: 0}
+  - _name: 2,7
+    _cellGO: {fileID: 0}
+  - _name: 2,8
+    _cellGO: {fileID: 0}
+  - _name: 2,9
+    _cellGO: {fileID: 0}
+  sizeX: 15
+  sizeY: 15
+  sideAStart:
+  - {x: 1, y: 7}
+  sideBStart:
+  - {x: 13, y: 7}
+  placementCells:
+  - {x: 0, y: 6}
+  - {x: 0, y: 7}
+  - {x: 0, y: 8}
+  - {x: 0, y: 9}
+  - {x: 1, y: 6}
+  - {x: 1, y: 7}
+  - {x: 1, y: 8}
+  - {x: 1, y: 9}
+  - {x: 2, y: 6}
+  - {x: 2, y: 7}
+  - {x: 2, y: 8}
+  - {x: 2, y: 9}

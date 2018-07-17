@@ -1,0 +1,27 @@
+Fix name change on switching scenes
+Save / Load game
+Battle UI- Prep for abilities
+Cell prefab - add quad to show pathfinding. Add terrain types scriptable object and show terrain types
+Camera: Make a start. Rotate by increments of 90. Pan with arrows? Zoom in/out? Perhaps parent camera to empty, rotate empty
+Pretty up Overworld.
+Map Editor
+
+Idea: Team, shop, and missions can be points on a map. Windows for team, shop, and mission. Drag windows. Need: Icons; home, shop, mission. Maybe have arena instead of missions? Maybe missions too?
+Idea2: Path. Some nodes on path has a shop, others have missions
+
+Idea: For map editor. Each enemy spawn position will also have a slot to attach a unit
+
+Idea: Cache cells messed with. Hashset maybe. ClearCellCache, AddCellToCache. Constructors for single, lists, hashsets, and arrays?
+Can then reset their colour etc without going through entire grid
+
+Idea: Cell prefab has cellscript. Dictionary of each cellscript. CellClass has hashkey to cellscript. Cellscript contains reference to game object and path mesh child
+
+Idea: Event Manager. Because come on, it would help out by a metric fuck tonne
+
+getcomponent: 456, 254
+cache: 254, 490
+
+
+DONE:
+-Battle UI- player unit hud. Portrait etc.
+-Attack pathfinding- ignore all units. Update attack to disallow team attacks

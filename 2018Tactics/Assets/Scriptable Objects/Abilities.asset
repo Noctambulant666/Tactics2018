@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560ce40eb5b51aa40b7c7211314d7a0a, type: 3}
+  m_Name: Abilities
+  m_EditorClassIdentifier: 
+  abilities:
+  - _name: Fireball
+    description: POW! Spicy...
+    icon: {fileID: 21300000, guid: 41f3b4fe3e83ded4a91f21f92ccfde56, type: 3}
+    canTargetSelf: 0
+    range: 5
+    area: 2
+    baseAttribute: 2
+    effects:
+    - effectName: Fire damage
+      effectType: 1
+      target: 1
+      powerMin: 5
+      powerMax: 8
+    - effectName: Fire debuff
+      effectType: 2
+      target: 1
+      powerMin: 1
+      powerMax: 2
+  - _name: Heal light wounds
+    description: Wounds magically heal
+    icon: {fileID: 21300000, guid: d1b22767fbcbd53418b2a32bf3bafea5, type: 3}
+    canTargetSelf: 1
+    range: 2
+    area: 0
+    baseAttribute: 2
+    effects:
+    - effectName: Heal
+      effectType: 0
+      target: 2
+      powerMin: 1
+      powerMax: 4

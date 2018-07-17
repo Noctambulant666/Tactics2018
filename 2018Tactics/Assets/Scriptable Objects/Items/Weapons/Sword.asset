@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97ca5dc606966a40834c85dc551723b, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  _name: Sword
+  _sprite: {fileID: 21300000, guid: 86e9e3a8090edba4aa638b4ba5576022, type: 3}
+  _description: This is a simple sword
+  _cost: 5
+  _prefab: {fileID: 1971086594538834, guid: 1c9912025ef53d443a1b2e53c1b4e475, type: 2}
+  _minDamage: 1
+  _maxDamage: 6
+  _accuracy: 3
+  _range: 1
+  _critBonus: 6
+  _abilityAttack: 0
+  _abilityDefend: 1
